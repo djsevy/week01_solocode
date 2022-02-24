@@ -61,7 +61,7 @@ def player_1():
     
     choice = current_player
     choice = input('\nplayer 1, please choose a number between 1-9: ')
-    choice = int(choice) - 1
+    choice = int(choice) + 1
     grid[choice] = player1
 
 
@@ -73,7 +73,7 @@ def player_2():
     
     choice = current_player
     choice = input('player 2, please choose a number between 1-9: ')
-    choice = int(choice) - 1
+    choice = int(choice) + 1
     grid[choice] = player2
 
     display_grid()
